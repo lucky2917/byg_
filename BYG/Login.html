@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYG - Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white flex items-center justify-center min-h-screen">
+    
+    <div class="bg-gray-900 p-10 rounded-xl shadow-xl w-full max-w-md">
+        <h2 class="text-4xl font-bold text-center text-blue-500">Login</h2>
+        <p class="text-gray-400 text-center mt-2">Access your account and start booking!</p>
+
+        <form class="mt-6">
+            <label class="block text-lg font-semibold">Email</label>
+            <input type="email" placeholder="Enter your email"
+                class="w-full p-3 mt-2 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            
+            <label class="block text-lg font-semibold mt-4">Password</label>
+            <input type="password" placeholder="Enter your password"
+                class="w-full p-3 mt-2 bg-gray-800 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+            
+            <div class="flex justify-between items-center mt-4">
+                <label class="flex items-center">
+                    <input type="checkbox" class="form-checkbox text-blue-500">
+                    <span class="ml-2 text-gray-400">Remember Me</span>
+                </label>
+                <a href="#" class="text-blue-400 hover:text-blue-600 text-sm">Forgot Password?</a>
+            </div>
+
+            <button type="submit"
+                class="w-full bg-blue-500 text-white py-3 rounded-lg mt-6 text-lg font-semibold hover:bg-blue-600">
+                Sign In
+            </button>
+        </form>
+
+        <p class="text-center text-gray-400 mt-6">Don't have an account? 
+            <a href="signup.html" class="text-blue-400 hover:text-blue-600 font-semibold">Sign Up</a>
+        </p>
+    </div>
+
+</body>
+</html>
